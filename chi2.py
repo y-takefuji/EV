@@ -46,13 +46,13 @@ for make in top_makes:
         'Make': make,
         'Target Count': total_count,
         'Mean Electric Range': mean_range,
-        'Chi2 EV Type': chi2_ev_type,
+        'Chi2 EV Type': int(chi2_ev_type),
         'P-value EV Type': f"{p_ev_type:.7e}",
-        'Chi2 CAFV': chi2_cafv,
+        'Chi2 CAFV': int(chi2_cafv),
         'P-value CAFV': f"{p_cafv:.7e}",
-        'Chi2 Range': chi2_range,
+        'Chi2 Range': int(chi2_range),
         'P-value Range': f"{p_range:.7e}",
-        'Chi2 Model': chi2_model,
+        'Chi2 Model': int(chi2_model),
         'P-value Model': f"{p_model:.7e}"
     })
 
